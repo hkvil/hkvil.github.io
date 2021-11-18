@@ -1,0 +1,102 @@
+<!DOCTYPE html5>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+<style>
+    html { 
+  background: url(https://cdn.discordapp.com/attachments/755261634834071634/880280875181441024/pexels-abdullah-ghatasheh-1631677.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+    h1{
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+    }
+    h2{
+        text-align: center;
+        font-family: 'Roboto';
+    }
+    p{
+        text-align: center;
+    }
+div{
+    background-color:rgba(235, 165, 13, 0.56);
+    padding: 1px;
+    border-radius:10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+button{
+    padding-left: 380px;
+    margin: 50%;
+}
+form {
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+}
+</style>
+<head>
+<h1 id="title">
+    SEKOLAH DI MASA PANDEMI
+</h1>
+<p id="description">
+Survey tentang kenyamanan belajar di rumah.
+</p>
+</head>
+
+<div>
+    <h2>Identitas</h2>
+<form id="survey-form">
+    <label for="name-label">Nama:</label>
+    <input placeholder="Nama" type="text" id="name" name="name-label" required><br>
+    <label for="email-label">Email:</label>
+    <input placeholder="Email" type="email" name="email-label" id="email" required><br>
+    <label for="number-label">No.telp:</label>
+    <input placeholder="Nomor hp" type="tel" name="number-label" id="number" minlength="10" maxlength="13" min="0" max="9" required><br>
+       <label for="dropdown-label">Tingkat Pendidikan</label><br>
+         <select required name="dropdown-label" id="dropdown">
+             <option value="TK">TK</option>
+             <option value="SD">SD</option>
+             <option value="SMP">SMP</option>
+             <option value="SMA">SMA</option>
+             <option value="KULIAH">KULIAH</option>
+         </select><br>
+</form>
+<h2>
+    Apakah kamu puas selama belajar daring?
+</h2>
+<form id="survey-form">
+    <input type="radio" name="suka" value="puas">
+    <label for="puas">Puas</label><br>
+    <input type="radio" name=suka" value="biasa">
+    <label for="biasa">Biasa saja</label><br>
+    <input type="radio" name="suka" value="ga">
+    <label for="ga">Menyedihkan</label>
+</form>
+<h2>
+    Apa kendala kamu selama daring?
+</h2>
+<form id="survey-form">
+    <input type="checkbox" id="internet" name="internet" value="internet">
+    <label for="internet"> Internet</label><br>
+    <input type="checkbox" id="device" name="device" value="device">
+    <label for="device"> Device</label><br>
+    <input type="checkbox" id="malas" name="malas" value="malas">
+    <label for="malas"> Malas</label><br>
+    <input type="checkbox" id="Tidak ada" name="Tidak ada" value="Tidak ada">
+    <label for="Tidak ada">Tidak ada</label>
+</form>
+<h2>
+    Kritik dan saran untuk pemerintah
+</h2>
+<form id="survey-form">
+    <textarea id="saran" name="saran" rows="10" cols="51">
+        
+    </textarea>
+</form>
+<footer>
+<form id="survey-form">
+    <input style="justify-content: center;" type="submit" id="submit" value="Submit">
+</form>
+</div>
